@@ -53,16 +53,19 @@ body{
 .nav ul{
     padding: 0;
 }
-
+.welcome{
+    height: 100vh;
+    border-bottom: 2px solid white;
+}
 .right-details{
-    position: fixed;
+    position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
-    width: calc(100vw - 300px);
+    width: calc(100vw - 320px);
 }
 .name{
-    padding: 40px 10px 20px 40px;
+    padding: 60px 10px 0px 40px;
 }
 .name h1{
     font-size: 50px;
@@ -93,4 +96,8 @@ body{
     font-size: 40px;
     color: white;
 
+}
+
+.my-likes{
+    height: 100vh;
 }
