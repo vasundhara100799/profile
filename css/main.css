@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
-
+@font-face {
+    font-family: gloss;
+    src: url(../font/gloom.ttf); }
 body{
     margin: 0;
     padding: 0;
+    background: #bb90ce;
 }
 .left-details{
     position: fixed;
@@ -49,4 +52,45 @@ body{
 }
 .nav ul{
     padding: 0;
+}
+
+.right-details{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: calc(100vw - 300px);
+}
+.name{
+    padding: 40px 10px 20px 40px;
+}
+.name h1{
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-family: gloss;
+    margin-bottom: 0;
+}
+.name h1 span{
+    color: white;
+    opacity: 0.6;
+}
+.welcome-details{
+    padding: 5vh 10vw 5vh 40px;
+}
+.welcome-details p{
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.social-links li{
+    display: inline;
+    
+}
+.social-links a{   
+    margin-right: 25px; 
+}
+.social-links i{
+    font-size: 40px;
+    color: white;
+
 }
